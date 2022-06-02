@@ -4,7 +4,7 @@
  (*
  *Description: Thi prints a statement to standard error)?
  */
-int main(void)
+int main()
 {
-fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n")
+  fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 return (1); }  
