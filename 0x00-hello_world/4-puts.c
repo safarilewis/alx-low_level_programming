@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * int main() - Prints a sentence
+ * main() - Prints a sentence
  * 
 ( *
  *Description:Uses the function puts to print a line)?
