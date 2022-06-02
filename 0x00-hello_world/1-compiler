@@ -1,2 +1,2 @@
 #!/bin/bash
-CL /c $CFILE
+g++ -c $CFILE
