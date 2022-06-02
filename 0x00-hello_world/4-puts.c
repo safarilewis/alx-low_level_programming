@@ -1,6 +1,6 @@
 #include <stdio.h>
-/***
- * int main() - This is a description
+/**
+ * main() - This is a description
  *
  *Description:Why?
  *
