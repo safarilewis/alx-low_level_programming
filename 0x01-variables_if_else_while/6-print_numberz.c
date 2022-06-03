@@ -3,12 +3,12 @@
  *main - Entry point
 (*
 *Description: where the code starts functioning)?
-*Return zero
+*Return: zero
 */
   int main()
 {
   int i;
   for(i=0;i<10;i++){
-    putchar(i); }
+    putchar(str[i]); }
   putchar('\n');
   return (0); }
