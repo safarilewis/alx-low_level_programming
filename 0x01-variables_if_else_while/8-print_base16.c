@@ -14,6 +14,6 @@ for (ch = '0'; ch <= '9'; ch++)
 putchar(ch); }
 for (sh = 'a'; sh < 'g'; sh++)
 {
-putchar(sh);}
+putchar(sh); }
 putchar('\n');
 return (0); }
