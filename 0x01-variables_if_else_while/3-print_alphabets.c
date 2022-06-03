@@ -10,7 +10,7 @@ int main()
   char ch;
   char sh;
   for(ch='a';ch<='z';ch++){
-    putchar("%c", ch);}
+    putchar(ch);}
   for(sh='A';sh<='Z';sh++){
-    putchar("%c", sh\n);}
+    putchar(sh\n);}
   return (0); }
