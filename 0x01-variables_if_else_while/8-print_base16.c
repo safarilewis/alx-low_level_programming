@@ -9,7 +9,7 @@
 {
   char ch;
   char sh;
-  for(ch=0;ch<10;ch++){
+  for(ch='0';ch<'10';ch++){
     putchar(ch); }
   for(sh='a';sh<'g';sh++){
     putchar(sh);}
