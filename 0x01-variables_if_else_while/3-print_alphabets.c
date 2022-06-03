@@ -5,7 +5,7 @@
 *Description: Looping structure)?
 *Return: returns zero
 */
-int main()
+int main(void)
 {
 char ch;
 char sh;
