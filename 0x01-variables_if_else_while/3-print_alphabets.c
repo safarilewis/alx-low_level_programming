@@ -12,5 +12,5 @@ int main()
   for(ch='a';ch<='z';ch++){
     putchar(ch);}
   for(sh='A';sh<='Z';sh++){
-    putchar(sh);}
+    putchar(sh,"\n");}
   return (0); }
