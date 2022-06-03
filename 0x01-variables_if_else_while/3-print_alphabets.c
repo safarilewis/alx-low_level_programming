@@ -9,10 +9,10 @@ int main()
 {
 char ch;
 char sh;
-for (ch='a'; ch <= 'z'; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(ch);}
-for (sh='A'; sh <= 'Z'; sh++)
+putchar(ch); }
+for (sh = 'A'; sh <= 'Z'; sh++)
 {
 putchar(sh); }
 putchar('\n');
