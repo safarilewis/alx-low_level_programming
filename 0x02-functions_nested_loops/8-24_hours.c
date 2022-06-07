@@ -2,7 +2,7 @@
 /**
  *jack_bauer - Counter
  *
- *Return: Always 0 
+ *Return: Always 0
  */
 void jack_bauer(void)
 {
