@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_sign - Checks if a letter is an alphabet
- *@n - parameter
+ *@n: parameter
  *Return: Always 0 or 1
  */
 int print_sign(int n)
