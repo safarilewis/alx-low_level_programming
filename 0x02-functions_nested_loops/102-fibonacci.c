@@ -8,7 +8,7 @@
  int main(void) 
  { 
          long int a, b, c, d; 
-  
+ 
          a = 1; 
          b = 2; 
          c = 3; 
@@ -24,3 +24,4 @@
          } 
          printf("%ld\n", c); 
          return (0);
+}
