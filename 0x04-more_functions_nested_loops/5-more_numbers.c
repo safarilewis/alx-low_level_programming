@@ -21,5 +21,4 @@ _putchar('0' + a);
 _putchar('0' + b);
 }
 _putchar('\n');
-}
-}
+}}
