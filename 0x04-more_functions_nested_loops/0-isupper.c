@@ -4,11 +4,13 @@
  *@c: variable
  *Return: Always zero
  */
-int _isUpper(int c)
+int _isUpper (int c)
 {
-if (c >=m 'A' && c <= 'Z')
+if (c >= 'A' && c <= 'Z')
 {
-return (1); }
+return (1);
+}
 else
 {
-return (0); }}
+return (0);
+}
