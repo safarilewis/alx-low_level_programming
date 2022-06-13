@@ -7,5 +7,5 @@
  */
 void _puts(char *str)
 {
-fwrite(stdout,"%s\n",str);
+fwrite(stdout,"%sn\n", *str);
 }
