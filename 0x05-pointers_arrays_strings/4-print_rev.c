@@ -6,8 +6,12 @@
  */
 void print_rev(char *s)
 {
-int x = -1;
-while (*(s+x))
+int x = 0;
+while (*(s+x)){
+  x++;
+}
+  x = x - 1;
+while (x >= 0)
 {
 _putchar(*(s+x));
 x--;
