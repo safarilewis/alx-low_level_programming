@@ -10,7 +10,7 @@ int x = -1;
 while (*(s+x))
 {
 _putchar(*(s+x));
-i--;
+x--;
 }
 _putchar('\n');
 }
