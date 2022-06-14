@@ -6,19 +6,11 @@
  */
 void more_numbers(void)
 {
-char a, b, c, i;
-for (i = 0; i < 10; i++)
-{
-for (c = 0; c <= 14; c++)
-{
-if (c < 10)
-b = c;
-else
-{
-a = c / 10; b = c % 10;
-_putchar('0' + a);
+int i, j;
+  for (i = 0; i <= 14; i++)
+  {
+    for (j = 0; j < 10; j++)
+      _putchar(i);
+    }
+  _putchar('\n');
 }
-_putchar('0' + b);
-}
-_putchar('\n');
-}}
