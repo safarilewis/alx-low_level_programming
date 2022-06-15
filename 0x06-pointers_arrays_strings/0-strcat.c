@@ -3,6 +3,7 @@
 *_strcat - Entry Point
 *@dest: Parameter
 *@src: Parameter
+*Return: destination string
 */
 char *_strcat(char *dest, char *src)
 {
