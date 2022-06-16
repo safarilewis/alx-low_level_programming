@@ -11,7 +11,6 @@ int _strcmp(char *s1, char *s2)
   less = -1;
   equal = 0;
   more = 1;
-
   int i;
   int j;
   i = 0;
