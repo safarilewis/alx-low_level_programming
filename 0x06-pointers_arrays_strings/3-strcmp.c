@@ -8,7 +8,7 @@
 int _strcmp(char *s1, char *s2)
 {
   int n = 0;
-  while (s1[i] && s2[i] && s1[i] == s2[i])
+  while (s1[i] && s2[i] && (s1[i] == s2[i]))
     i++;
   return (s1[i] - s2[i]);
 }
