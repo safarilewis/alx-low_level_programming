@@ -7,33 +7,8 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-  int less, equal, more;
-  less = -1;
-  equal = 0;
-  more = 1;
-  int i;
-  int j;
-  i = 0;
-  j = 0;
-
-  while (*(s1 + i))
-    {
+  int n = 0;
+  while (s1[i] && s2[i] && s1[i] == s2[i])
     i++;
-    }
-  while (*(s2 + j))
-    {
-    j++;
-    }
-  if (i > j)
-    {
-    return (more);
-    }
-  else if (i == j)
-    {
-    return (equal);
-    }
-  else
-    {
-      return (less);
-    }
+  return (s1[i] - s2[i]);
 }
