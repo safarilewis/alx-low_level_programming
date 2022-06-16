@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *cap_string - Changes lowercase to uppercase
+ *string_toupper - Changes lowercase to uppercase
  *@s: Parameter
  *Return: string
  */
