@@ -12,8 +12,7 @@ int _strcmp(char *s1, char *s2)
   equal = 0;
   more = 1;
 
-  int i;
-  int j;
+  int i, j;
   i = 0;
   j = 0;
 
