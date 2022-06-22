@@ -15,7 +15,7 @@ else if (g * g > n)
 {
 return (-1);
 }
-return (find_sqrt(n, g+1));
+return (find_sqrt(n, g + 1));
 }
 /**
  *_sqrt_recursion - Finds the square root of a number
