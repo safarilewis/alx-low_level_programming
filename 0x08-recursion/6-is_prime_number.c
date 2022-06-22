@@ -16,7 +16,6 @@ int is_prime(int n, int k)
   return (is_prime(n, k+1));
     }
 }
-
 /**
  *is_prime_number - Checks if a number is prime
  *@n: Number to be checked
