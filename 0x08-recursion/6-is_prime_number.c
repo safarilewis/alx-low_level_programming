@@ -7,11 +7,14 @@
  */
 int is_prime(int n, int k)
 {
-  if (n % k = 0)
+  if (n % k == 0)
     {
       return (0);
     }
+  else if (n % k != 0 && k < n/2)
+    {
   return (is_prime(n, k+1));
+    }
 }
 
 /**
