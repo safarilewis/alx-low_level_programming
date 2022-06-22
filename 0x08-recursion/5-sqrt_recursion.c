@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *find_sqrt - Find the squareroot by recursively checking if a number is applicable
+ *find_sqrt - Find the squareroot by checking if a number is applicable
  *@n: Number to get squareroot of
  *@g: Guessing parameter
  *Return: Square root or -1
