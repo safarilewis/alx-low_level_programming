@@ -16,5 +16,6 @@ void _print_rev_recursion(char *s)
   if (*s == '\0')
     return;
   _putchar(*s);
-  _print_rev_recursion(s + (i - 1));
+  _print_rev_recursion(s + i);
+  i = i - 1;
 }
