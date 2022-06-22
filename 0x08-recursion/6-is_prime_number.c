@@ -12,8 +12,13 @@ int is_prime(int n, int k)
       return (0);
     }
   else if (!(n % k) && k < n/2)
+    {
     return (is_prime(n, k+1));
-
+    }
+  else
+    {
+      return (0);
+    }
 }
 /**
  *is_prime_number - Checks if a number is prime
