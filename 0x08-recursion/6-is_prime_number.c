@@ -11,7 +11,7 @@ int is_prime(int n, int k)
     {
       return (0);
     }
-  else if (n % k != 0 && k < n/2)
+ else
     {
   return (is_prime(n, k+1));
     }
