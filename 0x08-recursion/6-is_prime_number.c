@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+0;276;0c/**
  *is_prime - Checks if number is prime
  *@n: Number to be checked
  *@k: Parameter for 0 - n/2
@@ -11,7 +11,7 @@ if (n % k == 0)
 {
 return (0);
 }
-else if (k > n/2)
+else if (k > n / 2)
 {
 return (1);
 }
