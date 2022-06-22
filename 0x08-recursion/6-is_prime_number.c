@@ -7,18 +7,18 @@
  */
 int is_prime(int n, int k)
 {
-  if (n % k == 0)
-    {
-      return (0);
-    }
-  else if (k > n/2)
-    {
-    return (1);
-    }
-  else
-    {
-      return (is_prime(n, k + 1));
-    }
+if (n % k == 0)
+{
+return (0);
+}
+else if (k > n/2)
+{
+return (1);
+}
+else
+{
+return (is_prime(n, k + 1));
+}
 }
 /**
  *is_prime_number - Checks if a number is prime
@@ -27,9 +27,9 @@ int is_prime(int n, int k)
  */
 int is_prime_number(int n)
 {
-  if (n == 0 || n == 1)
-    {
-      return (0);
-    }
-  return(is_prime(n, 2));
+if (n < 2)
+{
+return (0);
+}
+return(is_prime(n, 2));
 }
