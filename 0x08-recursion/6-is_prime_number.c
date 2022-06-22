@@ -23,7 +23,7 @@ return (is_prime(n, k + 1));
 /**
  *is_prime_number - Checks if a number is prime
  *@n: Number to be checked
- *Return 0 or 1
+ *Return: 0 or 1
  */
 int is_prime_number(int n)
 {
@@ -31,5 +31,5 @@ if (n < 2)
 {
 return (0);
 }
-return(is_prime(n, 2));
+return (is_prime(n, 2));
 }
