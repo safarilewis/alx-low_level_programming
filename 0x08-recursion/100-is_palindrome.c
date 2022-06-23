@@ -36,7 +36,7 @@ int _check_palindrome(int r, int l, char *p)
     }
   else
     {
-      return (_check_palindrome(r - 1, l + 1, p))
+      return (_check_palindrome(r - 1, l + 1, p));
 	}
 }
 /**
