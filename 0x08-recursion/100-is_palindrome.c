@@ -11,7 +11,7 @@ if (*s != '\0')
 return (1 + _strlen_recursion(s + 1));
 }
 return (0);
-} 
+}
 /**
  *_check_palindrome - Checks if a string is a palindrome
  *@r: Right index
