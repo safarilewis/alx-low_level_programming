@@ -23,7 +23,7 @@ int _check_palindrome(int r, int l, char *p)
 {
 if (l >= r)
 {
-return (0);
+return (1);
 }
 else if (p[l] != p[r])
 {
