@@ -21,3 +21,5 @@ int _putchar(char c);
 int find_sqrt(int n, int g);
 
 int is_prime(int n, int k);
+
+int _check_palindrome(int r, int l, char *p);
