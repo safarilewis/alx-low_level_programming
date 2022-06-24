@@ -1,9 +1,0 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- *main - Entry point
- *Return: NULL
- */
-int main(int argc, char *argv[])
-{
-  
