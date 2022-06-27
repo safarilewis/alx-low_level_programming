@@ -19,3 +19,4 @@ char *_strdup(char *str)
       s[j] = str[i];
     }
   return (s);
+}
