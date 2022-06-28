@@ -25,17 +25,17 @@ else
 {
 for (j = 0; s2[j]; j++)
 ;
- }
- k = i + j + 1;
- s = malloc(k *sizeof(char));
- if (s == NULL)
- return (NULL);
- for (l = 0; l < i; l++)
- {
- s[l] = s1[l];
- }
- for (l = 0; l < j; l++)
- s[l + i] = s2[l];
- s[i + j] = '\0';
- return (s);
+}
+k = i + j + 1;
+s = malloc(k *sizeof(char));
+if (s == NULL)
+return (NULL);
+for (l = 0; l < i; l++)
+{
+s[l] = s1[l];
+}
+for (l = 0; l < j; l++)
+s[l + i] = s2[l];
+s[i + j] = '\0';
+return (s);
 }
