@@ -1,2 +1,2 @@
-# alx-low_level_programming
-- This repository contains projects done by me during the low level programming sprint at alx
+# ALX Low Level Programming with C
+- This Repo contains tasks and problems solved using C and Bash
