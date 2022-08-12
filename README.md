@@ -1,10 +1,7 @@
-# ALX Low Level Programming with C
-- This Repo contains tasks and problems solved using C and Bash
-# Low Level Programming & Algorithms
-
-
+# ALX Low Level Programming and Algorithms with C
 ## Welcome
-Thank you for visiting my programming projects. The majority of the code was written in C, with a few files written in Assembly.
+- This Repo contains tasks and problems solved using C and some little bit of Assembly
+
 
 ## About
 This repository contains projects on the C programming language. The projects cover:
