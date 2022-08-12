@@ -2,7 +2,6 @@
 - This Repo contains tasks and problems solved using C and Bash
 # Low Level Programming & Algorithms
 
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg" width="500">
 
 ## Welcome
 Thank you for visiting my programming projects. The majority of the code was written in C, with a few files written in Assembly.
