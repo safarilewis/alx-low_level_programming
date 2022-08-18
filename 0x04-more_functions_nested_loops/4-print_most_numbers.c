@@ -4,7 +4,7 @@
 */
 void print_most_numbers(void)
 {
-  char c = '0';
+  char c;
   while (c <= '9') & ((c != '2') || (c != '4'))
 		       {
 			 _putchar(c);
