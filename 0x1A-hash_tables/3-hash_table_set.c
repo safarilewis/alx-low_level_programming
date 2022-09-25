@@ -10,7 +10,7 @@
 hash_node_t *make_hash_node(const char *key, const char *value)
 {
     hash_node_t *node;
-    //Allocates memory for a node
+  
     node = malloc(sizeof(hash_node_t));
     if (node == NULL)
         return (NULL);
@@ -48,7 +48,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
     if (ht == NULL || ht->array == NULL || ht->size == 0 ||
 	    key == NULL || strlen(key) == 0 || value == NULL)
         return (0);
-    index = key_index((const unsigned char *)key, ht->size;
+    index = key_index((const unsigned char *)key, ht->size);
     tmp = ht->array[index];
     while (tmp != NULL)
     {
@@ -65,10 +65,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
     }
     hash_node = make_hash_node (key, value);
     if (hash_node == NULL)
-    {
+    
         return (0);
-        hash_node->next = ht->array[index];
-        ht->array[index = hash_node];
-        return (1);
-    }
+    hash_node->next = ht->array[index];
+    ht->array[index] = hash_node;
+    return (1);   
 }
